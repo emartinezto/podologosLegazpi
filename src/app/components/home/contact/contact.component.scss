@@ -1,0 +1,100 @@
+.container-fluid{
+    background-color: #f6f6f6;
+    .row{
+        .notPadding{
+            padding-left: 0px;
+            padding-right: 0px;
+            img{
+                width: 100%;;
+            }
+        }
+        .dFlexCenter{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            div{
+                width: 70%;
+                h2{
+                    color: #3c3c3c;
+                    font-size: 66px;
+                    line-height: 84px;
+                    font-weight: 200;
+                    letter-spacing: 0.5px;
+                    margin-bottom: 21px;
+                }
+                h5{
+                    color: #3c3c3c;
+                    font-size: 18px;
+                    line-height: 28px;
+                    font-weight: 300;
+                    letter-spacing: 0.2px;
+                    text-transform: none;
+                    span{
+                        font-weight: bold;
+                    }
+                    
+                }
+                .bold{
+                    font-weight: 500;
+                    line-height: 20px;
+
+                }
+                address , a{
+                    color: #3c3c3c;
+                    font-size: 18px;
+                    line-height: 28px;
+                    font-weight: 200;
+                    letter-spacing: 0.2px;
+                    text-transform: none;
+                }
+                a{
+                    color: #288DA9;
+                }
+                .btn{
+                    margin-top: 40px;
+                    width: 211px;
+                    height: 64px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 64px;
+                    background-color: white;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    color: #3C3C3C;
+                    &:hover{
+                        background-color: #3C3C3C;
+                        color: white;
+                    }
+                    p{
+                        margin: 0px;
+                        margin-right: 12px;
+                    }
+                
+                }
+                .btn.btn-telefono{
+                    margin-top: 26px;
+                    margin-bottom: 26px;
+                    background-color: #F6F6F6;
+                    font-size: 14px;
+                    line-height: 64px;
+                    height: 64px;
+                    font-weight: 400;
+                    padding-left: 44px;
+                    padding-right: 44px;
+                    &:hover{
+                        background-color: #707070;
+                        p{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.backgroundWhite{
+    background-color: #ffffff;
+}

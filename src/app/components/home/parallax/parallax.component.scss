@@ -1,0 +1,30 @@
+.background-paradax{
+    background-image: url(../../../../assets/parallax//podologia_fisioterapia_Legazpi_Madrid_5.jpg);
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 5%;
+    // height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2{
+        padding-top: 22%;
+        font-size: 66px;
+        margin-bottom: 16px;
+        line-height: 84px;
+        font-weight: 200;
+        letter-spacing: 0.5px;
+        margin-bottom: 20px;
+    }
+    h5{
+        margin-top: 15px;
+        padding-bottom: 22%;
+        font-size: 26px;
+        line-height: 38px;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+        text-transform: none;
+    }
+}

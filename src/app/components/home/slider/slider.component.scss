@@ -1,0 +1,76 @@
+.background{
+    background-image: url(../../../../assets/slider/podologia_fisioterapia_Legazpi_Madrid.jpg);    
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    .contenedorTexto{
+        margin: 0px 7%;
+        margin-top: 3%;
+        height: 400px;
+        h2{
+            font-size: 66px;
+            line-height: 84px;
+            font-weight: 200;
+            text-shadow: none;
+            letter-spacing: 0px;
+            margin-bottom: 20px;
+            opacity: 0;
+        }
+        h3{
+            font-size: 26px;
+            font-weight: 200;
+            line-height: 38px;
+            padding: 0px 0px 20px;
+            text-transform: none;
+            letter-spacing: 0px;
+            opacity: 0;
+        }
+        .btn{
+            width: 211px;
+            height: 64px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 64px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: #3C3C3C;
+            text-transform: capitalize;
+            margin-top: 40px;
+            opacity: 0;
+            &:hover{
+                background-color: #3C3C3C;
+                color: white;
+            }
+            p{
+                margin: 0px;
+                margin-right: 12px;
+            }
+        }
+    }
+}
+
+.animacionH2{
+        animation-duration: 1s;
+        animation-name: animacionH2;
+        animation-fill-mode: forwards;
+}
+
+@keyframes animacionH2 {
+    from {
+        margin-top: 100px;
+        opacity: 0;
+    }
+    to {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+
+
